@@ -1,5 +1,7 @@
 function sorted_array = bubbleSort(array)
+
     n = length(array);
+
     for i = 1:n-1
         for j = 1:n-i
             if array(j) > array(j+1)
