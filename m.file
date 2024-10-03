@@ -1,3 +1,4 @@
+% 00000000000000000000000000000000000
 function sorted_array = bubbleSort(array)
     n = length(array);
     for i = 1:n-1
@@ -11,4 +12,4 @@ function sorted_array = bubbleSort(array)
     end
     sorted_array = array;
 end
-%000000000000000000000000000000000000
+
